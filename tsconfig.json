@@ -1,0 +1,12 @@
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "types": ["jest"],
+    "experimentalDecorators": true, 
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false, // Optional: prevents "no initializer" errors
+    "target": "ES6" // Ensure target is at least ES6
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["**/node_modules", "**/Pods"]
+}
