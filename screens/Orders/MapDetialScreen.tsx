@@ -18,7 +18,7 @@ import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 import MapViewDirections from 'react-native-maps-directions';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-const GOOGLE_MAPS_APIKEY = 'AIzaSyDBmR1VwADAIy08TV9gdf96Hx7g1FKESuE';
+const GOOGLE_MAPS_APIKEY = 'AIzaSyDBmR1VwADAIy08TV9gdf96Hx7g1FKESuE'; //This must comes from the env file coz this is API key and i am using for testing purpose
 
 const MapTrackingScreen = () => {
   const mapRef = useRef<MapView>(null);
